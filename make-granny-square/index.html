@@ -1,0 +1,599 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../introduction/">
+      
+      
+        <link rel="next" href="../how-to-change-colours/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Make a granny square - Granny Square Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#make-a-granny-square" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Granny Square Docs" class="md-header__button md-logo" aria-label="Granny Square Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Granny Square Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Make a granny square
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Granny Square Docs" class="md-nav__button md-logo" aria-label="Granny Square Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Granny Square Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction to granny squares
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Make a granny square
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Make a granny square
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before you start
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-a-crochet-granny-square" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make a crochet granny square
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-your-granny-square-bigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      Making your granny square bigger
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-change-colours/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to change colours
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about-docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before you start
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-a-crochet-granny-square" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make a crochet granny square
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-your-granny-square-bigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      Making your granny square bigger
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="make-a-granny-square">Make a granny square</h1>
+<p>In this tutorial, you’ll make a crochet granny square with a single colour or skein of yarn.</p>
+<p><img src="/img/sarahmaker-crochetgrannysquare-10.jpg" alt="A yellow crochet granny square with three rows, made using one continuous length of yarn" width="500"/></p>
+<blockquote>
+<p>A yellow crochet granny square with three rows, made using one continuous length of yarn. <br/>
+<strong>Source</strong>: <a href="https://sarahmaker.com/crochet-a-granny-square/">Sarah Maker</a>  </p>
+</blockquote>
+<h2 id="before-you-start">Before you start</h2>
+<p>This tutorial assumes that you already know the following:</p>
+<ul>
+<li>US crochet terminology (see <a href="../glossary/">Granny square glossary</a>)  </li>
+<li>Chain stitch (ch)  </li>
+<li>Double crochet (dc)  </li>
+<li>Slip stitch (sl st)</li>
+</ul>
+<p>You need the following equipment: </p>
+<ul>
+<li>A cotton or acrylic yarn of your choice (<strong>Tip</strong>: chunkier yarns are better for learning)  </li>
+<li>A crochet hook at the right size for your yarn (check the yarn label, or use a <a href="https://www.crochetguru.com/standard-yarn-weight-chart.html">wraps-per-inch converter tool</a>)  </li>
+<li>A set of stitch markers (you need at least five)</li>
+</ul>
+<h2 id="make-a-crochet-granny-square">Make a crochet granny square</h2>
+<p>Because this is a beginner tutorial, I’ll provide plain English instructions alongside the standard crochet notation. </p>
+<p>Row 0 makes your starting circle. </p>
+<blockquote>
+<p><strong>Row 0:</strong> ch 4, sl st into the first chain, put stitch marker in ch4 sp  </p>
+</blockquote>
+<p><strong>Plain English:</strong> </p>
+<ol>
+<li>Make a slip knot to attach the yarn to your crochet hook, and make 4 chains.   </li>
+<li>Slip-stitch into the first chain you made. This should make a closed circle of 4 chains.   </li>
+<li>Put a stitch marker in the circle, so that you can identify it later.</li>
+</ol>
+<blockquote>
+<p><strong>Row 1:</strong> ch 3 (counts as first dc here and throughout), 2 dc in ch4 sp, [ch 2, 3 dc in ch4 sp] * 3, ch 2, ss to 3rd st in starting ch. (stitches: 12dc, 8ch) </p>
+</blockquote>
+<p><strong>Plain English:</strong></p>
+<ol>
+<li>Chain 3. This creates your first double crochet, and gets your working yarn to the right height to create your first row. <br />
+   (<strong>Note</strong>: Always place a stitch marker in the third chain you make, because you’ll need it later.)  </li>
+<li>Make 2 double crochets <strong>into the circle you made in Row 0</strong>. This is different to regular crochet: you’re not crocheting into the stitch, but underneath it. You should now have 3 double crochets in total (known as a “granny cluster”), making the first side of your first square.   </li>
+<li>Chain 2 (this makes a corner), then make another granny cluster into the circle from <strong>Row 0</strong> (this makes another granny cluster).   </li>
+<li>Repeat step 3 twice more. You should now have 3 corners, and 4 granny clusters.  </li>
+<li>To make your final corner and close the row, chain 2 and then slip-stitch into the 3rd chain from your original starting stitch.   </li>
+<li>Lay your piece out flat. You should have 4 granny clusters making up the sides of your square, and 4 chain-2 spaces that make the corners.   </li>
+<li>Place a stitch marker in each corner, to help you identify them while you work the next row.</li>
+</ol>
+<p>Next, let’s make that square bigger. <strong>Row 2</strong> works into the chain-2 spaces of <strong>Row 1</strong>. In each corner, we’ll add a granny cluster, a chain-2 space, and another granny cluster. Remember that <strong>you’re always working into the spaces between granny clusters</strong>, and not into the granny clusters themselves.</p>
+<blockquote>
+<p><strong>Row 2:</strong> ch 3, sk 3dc, [(3dc, ch 2, 3dc) in ch2 sp] * 3, (3dc, ch2, 2dc) in ch2 sp, ss to 3rd st in starting ch3. (stitches: 24dc, 8ch)</p>
+</blockquote>
+<p><strong>Plain English:</strong></p>
+<ol>
+<li>Chain 3 and place a stitch marker in the third chain you make. On this row, this chain-3 will be the <strong>last</strong> double crochet in the <strong>final</strong> granny cluster you make (this will make more sense in step 5).  </li>
+<li>In the next chain-2 space, make a granny cluster, then chain 2, then another granny cluster in the same space. This creates your first corner for this round.   </li>
+<li>Repeat step 2 twice more. You should now have 6 granny clusters, and 3 corners.   </li>
+<li>To make your final corner and close the row, make a granny cluster in the final chain-2 space, then chain 2, then make 2 more double crochets.   </li>
+<li>Finally, slip-stitch into the 3rd chain from your original starting stitch. This should complete the final granny cluster.  </li>
+<li>Lay your piece out flat. You should have 8 granny clusters making up the sides of your square, and 4 chain-2 spaces that make the corners.   </li>
+<li>Move your stitch markers to the new corners.</li>
+</ol>
+<p>Finally, let’s add one more row. Here, you’ll be thinking about sides as well as corners.</p>
+<blockquote>
+<p><strong>Row 3:</strong> ch 3, 2 dc in empty sp, (3dc, ch 2, 3dc) in next ch 2 sp, [3dc in empty sp, (3dc, ch 2, 3dc) in next ch 2 sp] * 3, ss to 3rd ch in starting ch3. (stitches: 36dc, 8ch) </p>
+</blockquote>
+<p><strong>Plain English:</strong> </p>
+<ol>
+<li>Chain 3 and place a stitch marker in the third chain you make. On this row, this chain-3 is the <strong>first</strong> double crochet in the <strong>first</strong> granny cluster you make.   </li>
+<li>In the empty space under your chain-3, make 2 more double crochets. This makes your first granny cluster for this row.  </li>
+<li>In the next chain-2 space, make a granny cluster, then chain 2, then make another granny cluster. This creates your first corner for this round.   </li>
+<li>In the next empty space, make a granny cluster.  </li>
+<li>In the next chain-2 space, make a granny cluster, then chain 2, then make another granny cluster.   </li>
+<li>Repeat steps 4 and 5 twice more. You should now have 12 granny clusters, and 4 corners.   </li>
+<li>To close the row, slip-stitch into the 3rd chain from your original starting stitch.   </li>
+<li>Lay your piece out flat. You should have 12 granny clusters making up the sides of your square, and 4 chain-2 spaces that make the corners.   </li>
+<li>Move your stitch markers to the new corners.</li>
+</ol>
+<p>You’re done! You should have a completed, fully symmetrical granny square with three rows, creating a checkerboard effect.</p>
+<h2 id="making-your-granny-square-bigger">Making your granny square bigger</h2>
+<p>You can make your granny square as large as you want, as long as you continue to follow the same pattern shown on <strong>Row 3</strong>, and follow the basic rules:</p>
+<ul>
+<li>On the sides of your square, make a granny cluster in an empty space, and then skip over to the next empty space.  </li>
+<li>In the corners of your square, make a granny cluster into the chain-2 space, then make 2 chains, then another granny cluster into the same chain-2 space. Then go back to making sides until you reach the next corner.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
