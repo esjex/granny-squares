@@ -1,6 +1,11 @@
 theme: 
   name: material
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
 site_name: Granny Square Docs
 
 nav:
