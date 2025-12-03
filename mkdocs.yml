@@ -1,0 +1,12 @@
+theme: 
+  name: material
+
+site_name: Granny Square Docs
+
+nav:
+  - Home: index.md
+  - introduction.md
+  - make-granny-square.md
+  - how-to-change-colours.md
+  - Glossary: glossary.md
+  - About: about-docs.md
