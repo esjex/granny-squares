@@ -2,10 +2,9 @@
 
 A granny square is a square piece of crochet with a checkerboard-style pattern, made by crocheting from the centre outward. 
 
-<figure markdown="span">
-  ![Figure title](/img/granny-square-blanket-stack.jpg){ width="500" }
-  <figcaption>A stack of multicoloured granny squares and yarn on top of a granny square blanket. <br/><strong>Source</strong>: <a href="https://commons.wikimedia.org/wiki/File:Crocheted_blanket.jpg">Wikicommons</a> </figcaption>
-</figure>
+![A collection of multicoloured granny squares.](img/granny-squares.jpg){ width="500" }
+
+_A collection of multicoloured granny squares._
 
 Granny squares are one of the most common and identifiable crochet projects. They are quick and repetitive to make, and extremely versatile. You can use them and combine them to make blankets, clothes, home furnishings, and any other textile application. 
 

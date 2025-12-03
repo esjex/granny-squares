@@ -2,10 +2,9 @@
 
 In this tutorial, you’ll make a crochet granny square with a single colour or skein of yarn.
 
-<img src="/img/sarahmaker-crochetgrannysquare-10.jpg" alt="A yellow crochet granny square with three rows, made using one continuous length of yarn" width="500"/>
+![A yellow crochet granny square with three rows, made using one continuous length of yarn](img/sarahmaker-crochetgrannysquare-10.jpg){ width="500" }
 
->A yellow crochet granny square with three rows, made using one continuous length of yarn. <br/>
->**Source**: [Sarah Maker](https://sarahmaker.com/crochet-a-granny-square/)  
+_A yellow crochet granny square with three rows, made using one continuous length of yarn.<br/> **Image source**: [Sarah Maker](https://sarahmaker.com/crochet-a-granny-square/)_
 
 ## Before you start
 

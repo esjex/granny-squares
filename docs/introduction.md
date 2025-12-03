@@ -11,18 +11,15 @@ A granny square is a piece of crochet made using the **granny stitch** to create
 * **Granny stitch**: A crochet stitch that comprises clusters of 3 double crochets with an empty space between each cluster, to create the famous checkerboard effect.  
 * **In-the-round crochet**: A style of crochet where you create the centre of the piece first, and then work out in concentric circles or spirals, increasing the number of stitches each row. 
 
-Crocheters often use many granny squares stitched together, or even just one large granny square.
+Crocheters often use many granny squares stitched together, or even just one large granny square:
 
-<img src="/img/granny-square-many.jpg" alt="A blanket made from several small granny squares." width="500"/>
+![A blanket made from several small granny squares.](img/granny-square-many.jpg){ width="500" }
 
->A blanket made from several small granny squares. <br/>
->**Source**: [Wikicommons](https://commons.wikimedia.org/wiki/File:Granny_Square_Crochet_Afghan_Made_by_Mary_Perdue_-_DPLA_-_bdf1dfb9d6f95b6c2ca5f0e17ccc61d4_(page_1).jpg)
+_A blanket made from several small granny squares. <br/>**Image source**: [Wikicommons](https://commons.wikimedia.org/wiki/File:Granny_Square_Crochet_Afghan_Made_by_Mary_Perdue_-_DPLA_-_bdf1dfb9d6f95b6c2ca5f0e17ccc61d4_(page_1).jpg)_
 
-<img src="/img/granny-square-one.jpg" alt="A blanket made from one large granny square." width="500"/>
+![A blanket made from one large granny square.](img/granny-square-one.jpg){ width="500" }
 
->A blanket made from one large granny square. <br/>
->**Source**: [Wikicommons](https://commons.wikimedia.org/wiki/File:Grannysquarecatblanket.jpg) 
-
+_A blanket made from one large granny square. <br/>**Image source**: [Wikicommons](https://commons.wikimedia.org/wiki/File:Grannysquarecatblanket.jpg)_
 
 ## Structure of a granny square
 
@@ -36,10 +33,9 @@ Each row of a granny square alternates between granny clusters and empty spaces.
 
 This crochet diagram demonstrates their structure: 
 
-<img src="/img/thisiscrochet-granny-square-diagram.jpeg" alt="A diagram of a granny square, using standard crochet diagram symbols." width="500"/>
+![A diagram of a granny square, using standard crochet diagram symbols.](img/thisiscrochet-granny-square-diagram.jpeg){ width="500" }
 
->A diagram of a granny square, using standard crochet diagram symbols. <br/> 
->**Source**: [ThisIsCrochet](https://thisiscrochet.com/granny-square-crochet-pattern-diagram/) 
+_A diagram of a granny square, using standard crochet diagram symbols. <br/>**Image source**: [ThisIsCrochet](https://thisiscrochet.com/granny-square-crochet-pattern-diagram/)_
 
 In the above diagram, the crocheter starts in the centre and works anti-clockwise to make each row. At the end of each row they close the loop, then create three **chain stitches** to “climb” to the appropriate height to start the next row.
 

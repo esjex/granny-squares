@@ -2,10 +2,9 @@
 
 This how-to guide describes how to change yarn colours for each row.
 
-<img src="/img/sarahmaker-crochetgrannysquare-31.jpg" alt="A three-row granny square, with a different colour for each row" width="500"/>
+![A three-row granny square, with a different colour for each row.](img/sarahmaker-crochetgrannysquare-10.jpg){ width="500" }
 
->A three-row granny square, with a different colour for each row </br>
->**Source**: [Sarah Maker](https://sarahmaker.com/crochet-a-granny-square/)  
+_A three-row granny square, with a different colour for each row. <br/>**Image source**: [Sarah Maker](https://sarahmaker.com/crochet-a-granny-square/)_
 
 ## Before you start
 
